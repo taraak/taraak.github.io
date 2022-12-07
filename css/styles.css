@@ -35,14 +35,17 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
+    font-family: 'Poppins';
     font-size: 3em;
     font-family:'Poppins';
 }
 h2 {
+    font-family: 'Poppins';
     font-size: 2em;
     font-family:'Poppins';
 }
 p {
+    font-family: 'Poppins';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
