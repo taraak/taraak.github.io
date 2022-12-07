@@ -2,7 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-/* nav ul, footer ul {
+nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
@@ -11,49 +11,7 @@ body {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-} */
-
-.nav {
-	position: fixed; /*left: 50%;*/
-	width: 100%;
-	top: 20px;
-	z-index: 9;
-	padding-left: 10px;
 }
-
-.nav a {
-	padding: 7px 20px;
-	border-radius: 7px;
-	margin-right: 10px;
-	background: rgba(255, 255, 255, 0.5);
-	-webkit-transition: all 0.2s ease-out;
-	-moz-transition: all 0.2s ease-out;
-	-ms-transition: all 0.2s ease-out;
-	-o-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
-	text-decoration: none;
-	color: black;
-	font-family: sans-serif, arial;
-	font-weight: 100;
-}
-
-.nav a.active {
-	background: rgba(0, 0, 0, 0.5);
-	color: white;
-}
-
-.nav a:hover {
-	background: rgba(255, 255, 255, 0.7);
-}
-
-.fork-wr img {
-	position: fixed;
-	z-index: 99;
-	top: 0;
-	right: 0;
-	border: 0;
-}
-
 
 a {
     text-decoration: none;
